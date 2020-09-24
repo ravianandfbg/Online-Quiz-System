@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../3.jpg);
+	background-size: cover;
+	font-family: century Gothic;
+}
+
+.title{
+	margin-top: 100px;
+	color: white;
+}
+
+.title h1{
+	font-size: 32px;
+	line-height: 10px;
+}
+.title h2{
+	font-size: 16px;
+}
+
+form{
+	margin-top: 50px;
+}
+
+.form-control{
+	width: 600px;
+	background: transparent;
+	outline: none;
+	border-bottom: 1px white;
+	color: white;
+	font-size: 18px;
+	margin-bottom: 16px;
+}
+
+input{
+	height: 45px;
+}
+
+form .Submit{
+	background-color: orange;
+	border-collapse: transparent;
+	color: black;
+	font-size: 20px;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form .Submit:hover{
+	background-color: red;
+	cursor: pointer;
+}
